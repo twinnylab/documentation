@@ -1,0 +1,11 @@
+framework module TARASMap {
+  umbrella header "TARASMap.h"
+
+  export *
+  module * { export * }
+}
+
+module TARASMap.Swift {
+    header "TARASMap-Swift.h"
+    requires objc
+}
